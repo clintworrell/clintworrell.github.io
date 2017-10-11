@@ -1,0 +1,452 @@
+/** {
+  font-size: 14px;
+  line-height: 20px;
+  max-width: 960px;
+  margin: 0 auto;
+}*/
+
+html {
+  max-width: 960px;
+  margin: 0 auto;
+  font-size: 14px;
+  line-height: 20px;
+  /*width: 100%;*/
+}
+
+body {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.portfolio-image img {
+  vertical-align: top;
+}
+
+#header-container {
+  margin-top: 30px;
+}
+
+#header-name {
+  padding-top: 25px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+}
+
+#header-title {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 15px;
+  margin-bottom: 40px;
+}
+
+#nav-container {
+  font-size: 0px;
+  text-align: center;
+}
+
+.nav-link {
+  background-color: #0EE5EF;
+  color: #FFF;
+  display: inline-block;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  padding-bottom: 2px;
+  padding-top: 2px;
+  text-transform: uppercase;
+  width: 200px;
+}
+
+.nav-link a:link, a:visited {
+  color: #FFF;
+  text-decoration: none;
+}
+
+/*.nav-link a:visited {
+  text-decoration: none;
+}*/
+
+#nav-portfolio {
+  margin-left: 1px;
+  margin-right: 1px;
+}
+
+.category-container {
+  /*margin: 0 -10px 0 -10px;*/
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.category-header {
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+  padding-bottom: 50px;
+  padding-top: 40px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+#portfolio-container {
+  text-align: center;
+}
+
+#current-artist-image {
+    width: 700px;
+    height: 700px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    margin: 0 auto;
+    margin-top: 5%;
+    background-image: url(https://i.scdn.co/image/afcd616e1ef2d2786f47b3b4a8a6aeea24a72adc);
+}
+/*.portfolio-image {
+  margin: 0 auto;
+  width: 100%;
+}*/
+
+.project {
+  display: inline-block;
+  margin: 0 10px 55px 10px;
+  padding: 0 20px 0 20px;
+  text-align: left;
+  vertical-align: top;
+  width: 257px;
+}
+
+.project-title {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  margin-top: 30px;
+}
+
+.project-description {
+  font-family: "Open Sans", sans-serif;
+  font-size: 13px;
+  font-weight: 300;
+  line-height: 19px;
+  margin: 5px 0 5px 0;
+}
+
+.project-link a {
+  color: #0EE5EF;
+  font-family: "Open Sans", sans-serif;
+  font-size: 12px;
+}
+
+#sound-control-img {
+
+}
+
+.resume-row {
+  border-top-color: rgb(219, 219, 219);
+  border-top-style: solid;
+  border-top-width: 1px;
+  margin-bottom: 40px;
+}
+
+.resume-column {
+  width: 440px;
+  display: inline-block;
+  padding: 0 18px 0 18px;
+  vertical-align: top;
+}
+
+.resume-section-title {
+  font-family: "Open Sans", sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  margin: 40px 0 10px 0;
+  text-transform: uppercase;
+}
+
+.resume-section-description {
+  font-family: "Open Sans", sans-serif;
+  font-size: 13px;
+  font-weight: 300;
+  line-height: 18px;
+}
+
+.resume-section-description strong {
+  color: #525252;
+  font-family: "Open Sans", sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.resume-section-description li {
+  font-family: "Open Sans", sans-serif;
+  font-size: 13px;
+  font-weight: 300;
+  line-height: 18px;
+  margin-bottom: 6px;
+}
+
+#resume-skills ul {
+  padding-left: 16px;
+}
+
+.resume-education-name {
+  color: #525252;
+  font-family: "Open Sans", sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.resume-education-location {
+  color: #525252;
+  font-size: 11px;
+  font-style: italic;
+  font-weight: 600;
+}
+
+.resume-education-details {
+  font-family: "Open Sans", sans-serif;
+  font-size: 13px;
+  font-weight: 300;
+  line-height: 18px;
+}
+
+.resume-experience {
+  padding: 0 18px 0 18px;
+}
+
+.resume-experience-title {
+  color: #525252;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 16px;
+}
+
+.resume-experience-location-dates {
+  color: #525252;
+  font-size: 11px;
+  font-style: italic;
+  font-weight: 600;
+  line-height: 16px;
+  margin: 0 0 5px 0;
+  padding-top: 2px;
+}
+
+.resume-experience-description {
+  font-family: "Open Sans", sans-serif;
+  font-size: 13px;
+  font-weight: 300;
+  line-height: 18px;
+}
+
+#resume-experience-first-entry {
+  padding-top: 15px;
+}
+
+.resume-experience-recurrent {
+  margin-top: 30px;
+}
+
+.resume-experience-galvanize {
+  margin-top: 30px;
+}
+
+.resume-experience-description li {
+  margin-bottom: 6px;
+}
+
+.resume-experience-description ul {
+  padding-left: 16px;
+}
+
+.resume-experience-summary {
+  margin-top: 30px;
+}
+
+.resume-experience-summary-header {
+  font-size: 13px;
+  font-style: italic;
+  margin-bottom: 5px;
+}
+
+.resume-experience-summary .resume-experience-location-dates {
+  margin-bottom: 12px;
+}
+
+#about-image {
+  border-radius: 80px;
+  display: block;
+  margin: 0 auto 40px auto;
+  opacity: .7;
+  width: 150px;
+}
+
+#about-name {
+  font-family: "Montserrat", sans-serif;
+  margin: 0 auto 5px auto;
+  width: 400px;
+}
+
+#about-description {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  width: 400px;
+  margin: 0 auto;
+}
+
+#about-link-container {
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.about-link {
+  display: inline-block;
+  margin: 0 6px 0 6px;
+  background-position 0 0;
+  width: 30px;
+  height: 30px;
+}
+
+.about-link:hover {
+  background-position: -31px 0;
+}
+
+#github-link {
+  background-image: url("../images/github.png");
+}
+#linkedin-link {
+  background-image: url("../images/linkedin.png");
+}
+
+@media screen and (min-width: 992px) {
+  .project-img {
+    margin: 0 auto;
+    max-width: 257px;
+    max-height: 151.656px;
+  }
+
+  body {
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 991px) and (min-width: 769px) {
+  html {
+    max-width: 768px;
+  }
+
+  .project-img {
+    max-height: 111px;
+    max-width: 189px;
+  }
+
+  .project {
+    width: 189px;
+  }
+
+  .resume-column {
+    width: 334px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  html {
+    max-width: 768px;
+  }
+
+  .nav-link {
+    padding-bottom: 5px;
+    padding-top: 5px;
+    width: 31.5%;
+  }
+
+  /*#nav-portfolio {
+    margin-left: 15px;
+  }*/
+
+  /*#nav-about {
+    margin-right: 15px;
+  }*/
+
+  .project {
+    border-top: 1px solid #dbdbdb;
+    display: block;
+    /*margin: 0 auto;*/
+    margin: 0 20px 45px 20px;
+    padding: 35px 0 0 0;
+    text-align: left;
+    width: auto;
+  }
+
+  .project-img {
+    width: 100%;
+  }
+
+  .resume-column {
+    padding: 0 0 0 0;
+    width: auto;
+  }
+
+  .resume-experience {
+    padding: 0 0 0 0;
+  }
+
+  .resume-row {
+    border-top: 1px solid #dbdbdb;
+  }
+
+  .category-container {
+    margin: 0 0 0 0;
+  }
+
+  #resume-container {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .resume-education {
+    display: block;
+    border-top: 1px solid #dbdbdb;
+    margin-top: 30px;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .project {
+    margin: 0 0 45px 0;
+  }
+
+  .nav-link {
+    display: block;
+    width: 100%;
+  }
+
+  #nav-portfolio, #nav-resume, #nav-about {
+    margin: 0 auto;
+  }
+
+  #nav-portfolio {
+    margin-bottom: 10px;
+  }
+
+  #nav-resume {
+    margin-bottom: 10px;
+  }
+
+  #nav-container {
+    margin: 0 15px 0 15px;
+  }
+
+  #about-description, #about-name {
+    width: 100%;
+  }
+
+  .category-container {
+    margin: 0 20px 0 20px;
+  }
+}
